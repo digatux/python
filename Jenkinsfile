@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker 'python:last' }
+    agent { docker 'python' }
     stages {
         stage('build') {
             steps {
